@@ -132,7 +132,7 @@ class CustomProteinDataset(Dataset):
         bond_type = torch.zeros(0, dtype=torch.long)
 
 
-        protein = Protein(edge_list, atom_type_numeric, bond_type, num_node=node_position.shape[0],
+        protein = data.Protein(edge_list, atom_type_numeric, bond_type, num_node=node_position.shape[0],
                           node_position=node_position, atom_name=atom_name_one_hot, residue_id=residue_id,
                           residue_type=residue_type_numeric, residue_feature=residue_feature)
 
