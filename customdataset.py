@@ -16,8 +16,6 @@ from Bio.PDB import NeighborSearch
 from Bio.PDB import Atom
 from torch.nn.utils.rnn import pad_sequence
 
-
-
 class CustomProteinDataset(Dataset):
     def __init__(self, labeled_data, transform=None, lazy=False, verbose=0):
         self.data = labeled_data
