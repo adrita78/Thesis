@@ -4,9 +4,9 @@ from transformers import BertModel, BertConfig, logging
 logging.set_verbosity_error()
 
 
-class PeptideBERT(torch.nn.Module):
+class LanguageModel(torch.nn.Module):
     def __init__(self, bert_config):
-        super(PeptideBERT, self).__init__()
+        super(LanguageModel, self).__init__()
 
         self.protbert = BertModel.from_pretrained(
             'Rostlab/prot_bert_bfd',
