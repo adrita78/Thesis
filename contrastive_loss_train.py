@@ -24,8 +24,7 @@ def train_contrastive(model, dataloader, loss_fn, optimizer, device):
 
     return total_loss / len(dataloader)
 
-# Example usage
-num_epochs = 10
+num_epochs = 250
 
 for epoch in range(num_epochs):
     train_loss = train_contrastive(joint_model, dataloader, contrastive_loss, optimizer, device)
