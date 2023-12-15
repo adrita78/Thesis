@@ -1,6 +1,8 @@
 # 10708_F23
 # Geometry-Aware Relational Graph Neural Network  and Language Model for Protein-Protein Interaction Predictions. 
 
+This repository contains the code for the fusion model that we implemented out of a GNN-based model and a ProtBERT-based language model for protein-protein interactions predictions from the Dockground and Marks Dataset.
+
 ## Overview
 
 *GeomEtry-Aware Relational Graph Neural Network (**GearNet**)* is a simple yet effective structure-based protein encoder. 
