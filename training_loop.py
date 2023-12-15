@@ -6,7 +6,7 @@ optimizer = optim.Adam(joint_model.parameters(), lr=0.001)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 joint_model.to(device)
 
-def train_binary_classification(model, loader, criterion, optimizer, device):
+def train_binary_classification(model, dataloader, criterion, optimizer, device):
     model.train()
     total_loss = 0.0
     all_labels = []
@@ -32,7 +32,7 @@ def train_binary_classification(model, loader, criterion, optimizer, device):
         all_predictions.extend(predictions.cpu().numpy())
     accuracy = accuracy_score(all_labels, all_predictions)
 
-    return total_loss / len(loader), accuracy
+    return total_loss / len(dataloader), accuracy
 
 num_epochs = 250
 
