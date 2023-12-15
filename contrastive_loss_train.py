@@ -3,7 +3,6 @@ def train_contrastive(model, dataloader, loss_fn, optimizer, device):
     total_loss = 0.0
 
     for batch in tqdm(dataloader, desc="Training"):
-        # Unpack data from the dataloader
         anchor, positive, negative = batch
         anchor, positive, negative = anchor.to(device), positive.to(device), negative.to(device)
 
@@ -15,7 +14,6 @@ def train_contrastive(model, dataloader, loss_fn, optimizer, device):
         outputs_positive = model(positive, positive)
         outputs_negative = model(negative, negative)
 
-        # Compute contrastive loss
         loss = loss_fn(outputs_anchor, outputs_positive, outputs_negative)
 
         # Backward pass and optimization
@@ -24,7 +22,7 @@ def train_contrastive(model, dataloader, loss_fn, optimizer, device):
 
         total_loss += loss.item()
 
-    return total_loss / len(default_generatorloader)
+    return total_loss / len(dataloader)
 
 # Example usage
 num_epochs = 10
