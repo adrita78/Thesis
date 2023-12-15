@@ -1,12 +1,8 @@
-output_dir: ~/scratch/protein_output
+output_dir: ~/scratch/PGM_Project
 
 dataset:
-  class: Fold3D
-  path: ~/scratch/protein-datasets/
-  test_split: test_fold
-  transform:
-    class: ProteinView
-    view: residue
+  class: Dataset
+  path: ~/scratch/PGM_Project
 
 task:
   class: PropertyPrediction
