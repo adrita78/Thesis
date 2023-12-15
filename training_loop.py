@@ -1,5 +1,5 @@
 projection_dim = 128  
-joint_model = JointModel(gnn_model, protbert_model, projection_dim)
+joint_model = JointModel(GearNetIEConv, LanguageModel, projection_dim)
 
 criterion = nn.BCEWithLogitsLoss()
 optimizer = optim.Adam(joint_model.parameters(), lr=0.001)
