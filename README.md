@@ -14,6 +14,11 @@ To adapt our model in your setting, you can follow the step-by-step [tutorials](
 
 [TorchDrug]: https://github.com/DeepGraphLearning/torchdrug
 
+Given below is the link to the Google Drive folders for the datasets Dockground and Marks:
+
+- [PGM_Project](https://drive.google.com/drive/folders/1hyxq0uGVqJnmXYsmbA0sJG01SXpG8Q0i?usp=drive_link)
+
+
 ## Installation
 
 You may install the dependencies via either conda or pip. Generally, GearNet works
