@@ -1,5 +1,5 @@
 # 10708_F23
-# GearNet: Geometry-Aware Relational Graph Neural Network  and Language Model for Protein-Protein Interaction Predictions. 
+# Geometry-Aware Relational Graph Neural Network  and Language Model for Protein-Protein Interaction Predictions. 
 
 ## Overview
 
