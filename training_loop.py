@@ -16,8 +16,6 @@ def train_binary_classification(model, loader, criterion, optimizer, device):
 
         gnn_input, protbert_input, labels = batch
         gnn_input, protbert_input, labels = gnn_input.to(device), protbert_input.to(device), labels.to(device)
-
-        # Zero the gradients
         optimizer.zero_grad()
 
         # Forward pass
@@ -36,8 +34,7 @@ def train_binary_classification(model, loader, criterion, optimizer, device):
 
     return total_loss / len(loader), accuracy
 
-# Example usage
-num_epochs = 10
+num_epochs = 250
 
 for epoch in range(num_epochs):
     train_loss, train_accuracy = train_binary_classification(joint_model, dataloader, criterion, optimizer, device)
