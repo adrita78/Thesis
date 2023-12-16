@@ -20,6 +20,52 @@ Given below is the link to the Google Drive folders for the datasets Dockground 
 
 - [PGM_Project](https://drive.google.com/drive/folders/1hyxq0uGVqJnmXYsmbA0sJG01SXpG8Q0i?usp=drive_link)
 
+## Files
+
+1. **Dockerfile:**
+   - Configuration file for building a Docker container.
+
+2. **GNNDataset.py:**
+   - Implementation of the GearNet dataset.
+
+3. **LICENSE:**
+   - License information for the project.
+
+4. **README.md:**
+   - Documentation file providing information about the project.
+
+5. **augmentations.py:**
+   - Code for data augmentations.
+
+6. **contrastive_loss.py:**
+   - Implementation of the contrastive loss function.
+
+7. **contrastive_loss_train.py:**
+   - Code for training a model with a contrastive loss.
+
+8. **data_preprocessing.py:**
+   - Code for preprocessing data.
+
+9. **downstream.py:**
+   - Code related to downstream training.
+
+10. **fusionmodel.py:**
+    - DCode for the fusion model for GearNet and the Language Model.
+
+11. **gearnet_edge_ieconv.yaml:**
+    - Configuration file for model architecture.
+
+12. **gearnetieconv.py:**
+    - Implementation of GearNet model.
+
+13. **layer.py:**
+    - GearNet layer.
+
+14. **requirements.txt:**
+    - Dependencies and versions required for the project.
+
+15. **training_loop.py:**
+    - Main training loop for the model.
 
 ## Installation
 
