@@ -35,7 +35,7 @@ Given below is the link to the Google Drive folders for the datasets Dockground 
    - Documentation file providing information about the project.
 
 5. **augmentations.py:**
-   - Code for data augmentations.
+   - Code for data augmentations for the PDB files of proteins.
 
 6. **contrastive_loss.py:**
    - Implementation of the contrastive loss function.
