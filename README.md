@@ -16,9 +16,10 @@ To adapt our model in your setting, you can follow the step-by-step [tutorials](
 
 [TorchDrug]: https://github.com/DeepGraphLearning/torchdrug
 
-Given below is the link to the Google Drive folders for the datasets Dockground and Marks:
+Given below is the link to the Google Drive folders for the processed datasets Dockground and Marks:
 
 - [PGM_Project](https://drive.google.com/drive/folders/1hyxq0uGVqJnmXYsmbA0sJG01SXpG8Q0i?usp=drive_link)
+- The original datasets can be found [here](https://figshare.scilifelab.se/articles/dataset/Data_and_most_relevant_results_for_the_FoldDock_project/16866202/1).
 
 ## Files
 
