@@ -35,7 +35,7 @@ Given below is the link to the Google Drive folders for the datasets Dockground 
    - Documentation file providing information about the project.
 
 5. **augmentations.py:**
-   - Code for data augmentations for the PDB files of proteins.
+   - Code for performing data augmentations for the 3D strctures of proteins.
 
 6. **contrastive_loss.py:**
    - Implementation of the contrastive loss function.
@@ -50,7 +50,7 @@ Given below is the link to the Google Drive folders for the datasets Dockground 
    - Code related to downstream training.
 
 10. **fusionmodel.py:**
-    - DCode for the fusion model for GearNet and the Language Model.
+    - Code for the fusion model for GearNet and the Language Model.
 
 11. **gearnet_edge_ieconv.yaml:**
     - Configuration file for model architecture.
