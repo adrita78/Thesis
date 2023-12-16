@@ -59,7 +59,7 @@ Given below is the link to the Google Drive folders for the datasets Dockground 
     - Implementation of GearNet model.
 
 13. **layer.py:**
-    - GearNet layer.
+    - GearNet layers.
 
 14. **requirements.txt:**
     - Dependencies and versions required for the project.
