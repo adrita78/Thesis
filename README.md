@@ -1,5 +1,7 @@
 # Geometry-Aware Relational Graph Neural Network  and Language Model for Protein-Protein Interaction Predictions. 
 
+**This repository is still under construction. We will be adding more code and documentation soon.**
+
 This repository contains the code for the fusion model that we implemented out of a GNN-based model and a ProtBERT-based language model for protein-protein interactions predictions from the Dockground and Marks Dataset.
 
 ## Overview
