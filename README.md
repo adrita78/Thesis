@@ -1,4 +1,4 @@
-# Geometry-Aware Relational Graph Neural Network  and Language Model for Protein-Protein Interaction Predictions. 
+# Geometry-Aware Relational Graph Neural Network  and Language Model for Interaction Predictions in Heterodimeric Complexes. 
 
 **This repository is still under construction. We will be adding more code and documentation soon.**
 
